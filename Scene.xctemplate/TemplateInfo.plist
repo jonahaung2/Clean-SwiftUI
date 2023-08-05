@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>Description</key>
+	<string>This generates a new configurator to set up your scene</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>DEFAULT</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Datastore</string>
+			<key>Description</key>
+			<string>the datasource name</string>
+			<key>Identifier</key>
+			<string>datasourceName</string>
+			<key>Name</key>
+			<string>Datasource Name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>The view name</string>
+			<key>Name</key>
+			<string>View</string>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___View</string>
+			<key>Identifier</key>
+			<string>viewName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Interactor</string>
+			<key>Description</key>
+			<string>The interactor name</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>adfaf</string>
+			<key>Name</key>
+			<string>Presenter</string>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Presenter</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>afdf af</string>
+			<key>Name</key>
+			<string>Model</string>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Model</string>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ScenePresenter</string>
+			<key>Description</key>
+			<string>The presenter name</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Name</key>
+			<string>Presenter Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>This generates a new configurator to set up your scene</string>
+</dict>
+</plist>
